@@ -150,21 +150,21 @@ mt.SetFloat("_MaxSize", 0.05f);
 View view = vb.updateView().apply(gameObject, mt);
 ```
 ## Known issues
-IATK is a prototype for research and there are known issues that we will fix in the near future.
+IATK is being actively developed and there are known issues that we will fix in the near future.
 
 - unrecognised symbols in data source can break the scripts 
-- scatterplot matrices can be slow due to the amount of points to display (if you have a very large dataset and a lot of dimension, scatetrplot matrices will be slow)
+- scatterplot matrices can be slow due to the amount of points to display (if you have a very large dataset and a lot of dimension, scatterplot matrices will be slow)
 
 ## Roadmap
 In a near feature we will support:
 
-- fix number of labels for discrete values (delegate method)
+- fixed number of labels for discrete values (delegate method)
 - details on demand
 - 2D/3D graph visualisation (node-link diagrams) directly in the *Visualisation* editor
-- more type of data sources (including real time data)
+- more types of data sources (including real time data)
 - more geometry (e.g. surfaces / volumes)
 
-## Official members and developpers
-The toolkit is developped by Maxime Cordeil (project leader, Monash University), Andrew Cunningham (University of South Australia) and Kingsley Stephens (Monash University).
+## Official members and developers
+The toolkit is developed by Maxime Cordeil (project leader, Monash University), Andrew Cunningham (University of South Australia) and Kingsley Stephens (Monash University).
 
 Contributors: Tim Dwyer (Monash University)
